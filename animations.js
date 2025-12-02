@@ -265,7 +265,45 @@
     }
 
     // ========================================
-    // 10. INITIALIZE ALL FEATURES
+    // 10. MOBILE MENU TOGGLE
+    // ========================================
+
+    function initMobileMenu() {
+        const toggle = document.querySelector('.mobile-menu-toggle');
+        const overlay = document.querySelector('.mobile-menu-overlay');
+        const navLinks = document.querySelectorAll('.nav-links a');
+
+        if (!toggle) return;
+
+        // Toggle menu on button click
+        toggle.addEventListener('click', function () {
+            document.body.classList.toggle('mobile-menu-open');
+        });
+
+        // Close menu on overlay click
+        if (overlay) {
+            overlay.addEventListener('click', function () {
+                document.body.classList.remove('mobile-menu-open');
+            });
+        }
+
+        // Close menu on link click
+        navLinks.forEach(link => {
+            link.addEventListener('click', function () {
+                document.body.classList.remove('mobile-menu-open');
+            });
+        });
+
+        // Close menu on ESC key
+        document.addEventListener('keydown', function (e) {
+            if (e.key === 'Escape' && document.body.classList.contains('mobile-menu-open')) {
+                document.body.classList.remove('mobile-menu-open');
+            }
+        });
+    }
+
+    // ========================================
+    // 11. INITIALIZE ALL FEATURES
     // ========================================
 
     function init() {
@@ -283,6 +321,7 @@
         initNavbarScroll();
         initCardTilt();
         initHeroAnimation();
+        initMobileMenu();
         // addSectionDividers(); // Optional - uncomment if desired
         enhanceImageLoading();
 
