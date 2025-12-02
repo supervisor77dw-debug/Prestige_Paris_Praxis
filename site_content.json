@@ -1,0 +1,46 @@
+{
+    "hero_text": {
+        "main": "Prestige Paris Praxis",
+        "sub": "Präzision. Perfektion. Vollendung.\nFür Frauen, die Exzellenz erwarten und Perfektion verlangen."
+    },
+    "about_text": "Ihre Expertin\nÜber Nicole\nLeidenschaft, Expertise und der Anspruch an Perfektion – das ist meine Philosophie.\nMeine Geschichte\nSeit über 15 Jahren bin ich mit Herz und Seele in der Beauty- und Medical-Branche tätig. Was als Leidenschaft begann, ist heute meine Berufung: Frauen dabei zu unterstützen, ihre natürliche Schönheit zu unterstreichen und ihr Selbstbewusstsein zu stärken.\nMeine Reise führte mich durch zahlreiche Weiterbildungen und Spezialisierungen – von Permanent Make-up über Medical Beauty bis hin zu innovativen Anti-Aging-Methoden. Jede Technik, die ich anwende, wurde von mir persönlich erlernt, perfektioniert und auf höchstem Niveau zertifiziert.\nFür mich ist jede Kundin einzigartig. Deshalb nehme ich mir Zeit für eine ausführliche Beratung, um Ihre individuellen Wünsche und Bedürfnisse zu verstehen. Mein Ziel ist es nicht nur, Ihre Erwartungen zu erfüllen, sondern sie zu übertreffen.\nWillkommen in der Prestige Paris Praxis – wo Ihre Vision zur Realität wird.",
+    "services": [
+        {
+            "title": "Permanent Make-Up",
+            "description": "Natürliche Schönheit, die bleibt. Perfekte Augenbrauen, Lidstriche und Lippen."
+        },
+        {
+            "title": "Glow Facial",
+            "description": "Intensive Feuchtigkeit und strahlender Teint mit Hyaluron und Vitaminen."
+        },
+        {
+            "title": "Wimpernverlängerung & Lifting",
+            "description": "Für einen atemberaubenden Augenaufschlag – ganz ohne Mascara."
+        },
+        {
+            "title": "Radiofrequenz",
+            "description": "Hautstraffung durch Wärmeimpulse für sichtbar jüngere Haut."
+        },
+        {
+            "title": "Ultraschall-Lifting",
+            "description": "Nicht-invasives Lifting für Gesicht, Hals und Dekolleté."
+        },
+        {
+            "title": "Mesotherapie",
+            "description": "Mikro-Injektionen mit Vitaminen und Hyaluron für intensive Verjüngung."
+        }
+    ],
+    "contact_info": {
+        "address": "Fährstraße 4, 24783 Osterrönfeld, Deutschland",
+        "phone": "+49 174 8500539",
+        "email": "info@prestige-paris.de"
+    },
+    "images": [
+        "https://prestigepraxis-gvv7aipw.manus.space/images/logo.png",
+        "https://prestigepraxis-gvv7aipw.manus.space/images/nicole-praxis.jpg",
+        "https://prestigepraxis-gvv7aipw.manus.space/images/permanent-makeup.webp",
+        "https://prestigepraxis-gvv7aipw.manus.space/images/glow-facial.webp",
+        "https://prestigepraxis-gvv7aipw.manus.space/images/lashes.jpg",
+        "https://prestigepraxis-gvv7aipw.manus.space/images/praxis-empfang.jpg"
+    ]
+}

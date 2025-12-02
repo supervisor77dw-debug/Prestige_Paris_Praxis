@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Termin buchen | Prestige Paris Praxis</title>
+    <meta name="description"
+        content="Vereinbaren Sie jetzt Ihren Termin in der Prestige Paris Praxis. Wir freuen uns auf Sie.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="https://prestigepraxis-gvv7aipw.manus.space/images/logo.png"
+                        alt="Prestige Paris Praxis Logo" style="height: 50px;">
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Startseite</a></li>
+                <li><a href="praxis.html">Die Praxis</a></li>
+                <li><a href="behandlungen.html">Behandlungen</a></li>
+                <li><a href="prestige_codes.html">Prestige Codes</a></li>
+                <li><a href="kundenstimmen.html">Kundenstimmen</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+                <li><a href="booking.html" class="btn-nav active">Termin buchen</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb-section">
+        <div class="container">
+            <p class="breadcrumb"><a href="index.html">Startseite</a> <span>&gt;</span> Termin buchen</p>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <header class="hero bg-contact" style="height: 40vh;">
+        <div class="hero-content">
+            <span class="hero-subtitle">Zeit für Sie</span>
+            <h1>Termin vereinbaren</h1>
+            <p>Wir freuen uns darauf, Sie in der Prestige Paris Praxis begrüßen zu dürfen.</p>
+        </div>
+    </header>
+
+    <!-- Content Section -->
+    <section class="booking-section">
+        <div class="container">
+            <div class="booking-form">
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" id="name" name="name" class="form-input" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="form-label">E-Mail Adresse</label>
+                        <input type="email" id="email" name="email" class="form-input" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone" class="form-label">Telefonnummer</label>
+                        <input type="tel" id="phone" name="phone" class="form-input" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="treatment" class="form-label">Gewünschte Behandlung</label>
+                        <select id="treatment" name="treatment" class="form-select">
+                            <option value="">Bitte wählen...</option>
+                            <option value="beratung">Erstberatung</option>
+                            <option value="radiofrequenz">Radiofrequenz</option>
+                            <option value="ultraschall">Ultraschall-Lifting</option>
+                            <option value="mesotherapie">Mesotherapie</option>
+                            <option value="pmu">Permanent Make-Up</option>
+                            <option value="facial">Glow Facial</option>
+                            <option value="lashes">Wimpern</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="form-label">Nachricht / Wunschtermin</label>
+                        <textarea id="message" name="message" class="form-textarea"></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit">Jetzt Termin anfragen</button>
+                    <p style="margin-top: 15px; font-size: 0.8rem; color: #777; text-align: center;">Mit dem
+                        Absenden
+                        erklären Sie sich mit unserer <a href="datenschutz.html"
+                            style="text-decoration: underline;">Datenschutzerklärung</a> einverstanden.</p>
+                </form>
+            </div>
+
+            <div style="text-align: center; margin-top: 60px;">
+                <h3>Oder rufen Sie uns direkt an</h3>
+                <p style="font-size: 1.2rem; margin-top: 10px; color: var(--secondary-color);">+49 174 8500539</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container footer-content">
+            <div class="footer-col">
+                <h4>Prestige Paris Praxis</h4>
+                <p>Exzellenz und Perfektion für Ihre Schönheit.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Kontakt</h4>
+                <p>Fährstraße 4<br>24783 Osterrönfeld, Deutschland</p>
+                <p>Tel: +49 174 8500539<br>Email: info@prestige-paris.de</p>
+            </div>
+            <div class="footer-col">
+                <h4>Rechtliches</h4>
+                <p><a href="impressum.html">Impressum</a><br><a href="datenschutz.html">Datenschutz</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Prestige Paris Praxis. Alle Rechte vorbehalten.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
