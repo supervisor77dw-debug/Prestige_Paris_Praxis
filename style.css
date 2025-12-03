@@ -104,7 +104,7 @@ a {
 
 .logo img {
     display: block;
-    height: 70px;
+    height: 85px;
     width: auto;
     transition: transform 0.3s ease;
 }
@@ -116,7 +116,7 @@ a {
 /* Mobile logo size */
 @media (max-width: 768px) {
     .logo img {
-        height: 50px;
+        height: 55px;
     }
 }
 
