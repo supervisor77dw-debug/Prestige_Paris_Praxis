@@ -113,10 +113,41 @@ a {
     transform: scale(1.05);
 }
 
-/* Mobile logo size */
+/* Mobile Header Optimization */
 @media (max-width: 768px) {
+    .navbar {
+        padding: 12px 0;
+    }
+
+    .nav-container {
+        position: relative;
+        justify-content: center;
+    }
+
+    .logo {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1001;
+    }
+
     .logo img {
-        height: 55px;
+        height: auto;
+        width: 160px;
+        max-width: 90vw;
+    }
+
+    .mobile-menu-toggle {
+        position: absolute;
+        right: 10px;
+        z-index: 1002;
+    }
+}
+
+/* Larger mobile devices */
+@media (min-width: 480px) and (max-width: 768px) {
+    .logo img {
+        width: 180px;
     }
 }
 
