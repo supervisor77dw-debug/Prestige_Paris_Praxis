@@ -120,15 +120,18 @@ a {
     }
 
     .nav-container {
-        position: relative;
+        display: flex;
         justify-content: center;
+        align-items: center;
+        position: relative;
+        min-height: 60px;
     }
 
     .logo {
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-        z-index: 1001;
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .logo img {
@@ -139,8 +142,9 @@ a {
 
     .mobile-menu-toggle {
         position: absolute;
-        right: 10px;
-        z-index: 1002;
+        right: 15px;
+        top: 50%;
+        transform: translateY(-50%);
     }
 }
 
@@ -149,6 +153,7 @@ a {
     .logo img {
         width: 180px;
     }
+}
 }
 
 .nav-links {
